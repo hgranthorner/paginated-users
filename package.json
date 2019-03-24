@@ -1,0 +1,34 @@
+{
+  "name": "paginated-users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npm run build-watch & open dist/index.html",
+    "build-watch": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hgranthorner/paginated-users.git"
+  },
+  "author": "Grant Horner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hgranthorner/paginated-users/issues"
+  },
+  "homepage": "https://github.com/hgranthorner/paginated-users#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-router-dom": "^5.0.0"
+  }
+}
